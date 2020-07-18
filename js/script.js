@@ -54,7 +54,7 @@ console.log('clickedElement:', clickedElement);
 
 const articleSelector = document.querySelectorAll('.href');
 
-clickedElement = element.getAttribute('href');
+const move = element.getElementById('articleSelector').getAttribute('.href');
 
 console.log('articleSelector:', articleSelector);
 
